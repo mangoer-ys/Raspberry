@@ -63,6 +63,6 @@ if __name__ == '__main__':
         now = datetime.datetime.now()
         time_info = now.strftime('%Y-%m-%d %A %H:%M:%S')
         send_text = "Boot time: %s\nIP addr: %s" % (time_info, ipaddr)
-        sendEmail('smtp.163.com','raspi_robot@163.com','mangoer123','raspi_robot@163.com',['2395528746@qq.com'], 'Raspberry Pi boot status', send_text)
+        sendEmail('smtp.163.com','raspi_robot@163.com','xxxxx','raspi_robot@163.com',['2395528746@qq.com'], 'Raspberry Pi boot status', send_text)
     else:
         print "Sorry that I can't help without network"

@@ -64,8 +64,8 @@ def get_user(username):
 
 
 def login():
-    username = '18710517099' #你的新浪微博账号
-    pwd = 'yangshuainet'        #你的新浪微博密码  
+    username = 'xxxxx' #你的新浪微博账号
+    pwd = 'xxx'        #你的新浪微博密码  
     url = 'http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.3.18)'
     try:
         servertime, nonce = get_servertime()
